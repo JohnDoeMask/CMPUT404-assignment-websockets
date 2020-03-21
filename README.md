@@ -59,3 +59,16 @@ Contributors
 * Mark Galloway
 * Abram Hindle
 * Cole Mackenzie
+
+References
+==========
+* https://stackoverflow.com/questions/12353288/getting-values-from-json-using-python answered by https://stackoverflow.com/users/388334/lior
+* https://codeburst.io/creating-and-drawing-on-an-html5-canvas-using-javascript-93da75f001c1
+* https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript answered by https://stackoverflow.com/users/383148/francisc
+* https://github.com/uofa-cmput404/cmput404-slides/tree/master/examples/WebSocketsExamples
+* https://coderwall.com/p/_g3x9q/how-to-check-if-javascript-object-is-empty
+
+Collaboration
+=============
+
+N/A
