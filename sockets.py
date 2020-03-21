@@ -95,7 +95,6 @@ def read_ws(ws,client):
     try:
         while True:
             msg = ws.receive()
-            print(msg)
 
             if (msg is not None):
                 packet = json.loads(msg)
@@ -111,7 +110,6 @@ def subscribe_socket(ws):
     '''Fufill the websocket URL of /subscribe, every update notify the
        websocket and read updates from the websocket '''
     # XXX: TODO IMPLEMENT ME
-    print("HERE")
     client = Client()
     clients.append(client)
     g = gevent.spawn(read_ws, ws, client)
