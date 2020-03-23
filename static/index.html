@@ -299,10 +299,10 @@ function wsSetup() {
         try {
             debug("WebSocket Recv:" + msg.data);
             //XXX: TODO What are you going to do here?
-            var updated_world = JSON.parse(msg.data);
             if (isEmpty(msg.data)){
                 world = {};
             } else {
+              var updated_world = JSON.parse(msg.data);
               for(var key in updated_world) {
                 world[key] = updated_world[key];
               }
